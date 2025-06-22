@@ -27,8 +27,8 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 BTC Ordinal Collection Stats API running at http://localhost:${PORT}`);
-  console.log(`📊 API endpoints:`);
+  console.log(`BTC Ordinal Collection Stats API running at http://localhost:${PORT}`);
+  console.log(`API endpoints:`);
   console.log(`   GET /collections - List all collections`);
   console.log(`   GET /collections/:slug - Get single collection`);
   console.log(`   GET /rankings - Top 10 collections`);

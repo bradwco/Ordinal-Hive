@@ -3,7 +3,7 @@ function filterCollections(collections, minVolume) {
 }
 
 function sortCollections(collections, sortBy) {
-  const sorted = [...collections]; // Create a copy to avoid mutating original
+  const sorted = [...collections];
   
   switch (sortBy) {
     case 'floor':
