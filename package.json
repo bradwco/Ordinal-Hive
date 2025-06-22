@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["bitcoin", "ordinals", "api", "collections", "magic-eden"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "BTC Ordinal Collection Stats API - Real-time statistics for Bitcoin Ordinal collections",
   "dependencies": {
+    "@api/tallal-test": "file:.api/apis/tallal-test",
     "axios": "^1.10.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
